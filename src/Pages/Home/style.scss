@@ -1,0 +1,40 @@
+@import "../../Styles/_variables.scss";
+
+.homeContent {
+  height: 100%;
+  max-height: 90%;
+  display: grid;
+  padding: 8px;
+  color: white;
+  grid-template-areas: "nav main aside";
+  grid-template-columns: 1fr 2.5fr 1fr;
+  column-gap: 8px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+
+  .navOne {
+    background-color: $section-background;
+    height: 15%;
+    border-radius: 12px;
+  }
+
+  .navTwo {
+    background-color: $section-background;
+    border-radius: 12px;
+    height: 85%;
+  }
+}
+
+.main {
+  background-color: $section-background;
+  border-radius: 12px;
+}
+
+.aside {
+  background-color: $section-background;
+  border-radius: 12px;
+}

@@ -1,0 +1,44 @@
+.footerContent {
+  width: 100vw;
+  height: 72px;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.contentOne {
+  width: 30%;
+  display: flex;
+  column-gap: 8px;
+  align-items: center;
+
+  > img {
+    border-radius: 6px;
+  }
+  .song {
+    color: white;
+  }
+
+  .artist {
+    color: #a7a7a7;
+  }
+
+  .heartButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.contentTwo {
+  width: 40%;
+  max-width: 722px;
+}
+
+.contentThree {
+  width: 30%;
+}
